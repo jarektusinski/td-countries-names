@@ -1,7 +1,7 @@
 {
   "name": "td-countries-names",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight TypeScript library with typed country and territory names for forms, filters, selectors, and validation logic.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,9 +13,27 @@
     "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\""
   },
-  "keywords": [],
+  "keywords": [
+    "countries",
+    "country-names",
+    "typescript",
+    "geo",
+    "geography",
+    "regions",
+    "forms",
+    "validation",
+    "selectors"
+  ],
   "author": "Jarosław Tusiński",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarektusinski/td-countries-names.git"
+  },
+  "homepage": "https://github.com/jarektusinski/td-countries-names#readme",
+  "bugs": {
+    "url": "https://github.com/jarektusinski/td-countries-names/issues"
+  },
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
@@ -28,7 +46,9 @@
     "typescript": "^5.3.3"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "publishConfig": {
     "access": "public"
